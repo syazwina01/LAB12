@@ -70,22 +70,22 @@ public class RainFallByteReader {
 				// district
 				district = disIn.readUTF();
 				
-				// daily rainfall readings for 1 June 2023
+				// daily rainfall readings for 3 June 2023
 				readings1 = disIn.readDouble();
 				
-				// daily rainfall readings for 2 June 2023
+				// daily rainfall readings for 4 June 2023
 				readings2 = disIn.readDouble();
 				
-				// daily rainfall readings for 3 June 2023
+				// daily rainfall readings for 5 June 2023
 				readings3 = disIn.readDouble();
 				
-				// daily rainfall readings for 4 June 2023
+				// daily rainfall readings for 6 June 2023
 				readings4 = disIn.readDouble();
 				
-				// daily rainfall readings for 5 June 2023
+				// daily rainfall readings for 7 June 2023
 				readings5 = disIn.readDouble();
 				
-				// daily rainfall readings for 6 June 2023
+				// daily rainfall readings for 8 June 2023
 				readings6 = disIn.readDouble();
 				
 				System.out.println( id + "\t" + station + "\t" + district

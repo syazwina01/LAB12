@@ -27,7 +27,7 @@ public class RainFallDataGenerator {
 			// 2) Create output stream between this program and output file, outFile
 			DataOutputStream dosOutput = new DataOutputStream(new FileOutputStream(outFile));
 			
-			// 3) Write the 6 days reading of daily rainfall - 3 June 2023 to  9 June 2023
+			// 3) Write the 6 days reading of daily rainfall - 3 June 2023 to  8 June 2023
 			dosOutput.write(4);
 			dosOutput.write(1);
 			dosOutput.write(0);
